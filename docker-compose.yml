@@ -1,0 +1,37 @@
+services:
+  htcondor:
+    image: htcondor-submit-ce:lts
+    container_name: htcondor
+    working_dir: /home/submituser
+    depends_on:
+      tokener_s3:
+        condition: service_healthy
+    volumes:
+      - ./submituser/:/home/submituser/
+      - type: bind
+        source: /tmp/token
+        target: /tmp/token
+    stdin_open: true
+    tty: true
+
+  tokener_s3:
+    image: gmazzitelli/tokener:v0.2
+    container_name: tokener_s3
+    env_file: /home/.env
+    environment:
+#      REFRESH_TOKEN: ${REFRESH_TOKEN}
+#      IAM_CLIENT_SECRET: ${IAM_CLIENT_SECRET}
+#      IAM_CLIENT_ID: ${IAM_CLIENT_ID}
+#      IAM_TOKEN_ENDPOINT: ${IAM_TOKEN_ENDPOINT}
+#      SCOPES: ${SCOPES}
+      TOKEN_FILE: /app/token
+    volumes:
+      - type: bind
+        source: /tmp/token
+        target: /app/token
+    healthcheck:
+      test: ["CMD-SHELL", "test -s /app/token"]
+      interval: 5s
+      timeout: 3s
+      retries: 20
+      start_period: 5s

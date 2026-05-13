@@ -1,0 +1,38 @@
+000 (348.000.000) 2026-04-22 15:07:57 Job submitted from host: <131.154.99.244:31618?addrs=131.154.99.244-31618&alias=131.154.99.244.myip.cloud.infn.it&noUDP&sock=schedd_31_d786>
+...
+040 (348.000.000) 2026-04-22 15:10:51 Started transferring input files
+	Transferring to host: <10.42.0.26:9618?CCBID=131.154.99.244:30618%3faddrs%3d131.154.99.244-30618%26alias%3dccb-pod-7b69864649-c7mkl%26noUDP%26sock%3dcollector#39&PrivNet=wn-pod-55b4ff9b5c-tszk4&addrs=10.42.0.26-9618&alias=wn-pod-55b4ff9b5c-tszk4&noUDP&sock=slot1_1_65_8c5c_11>
+...
+040 (348.000.000) 2026-04-22 15:10:52 Finished transferring input files
+...
+001 (348.000.000) 2026-04-22 15:10:52 Job executing on host: <10.42.0.26:9618?CCBID=131.154.99.244:30618%3faddrs%3d131.154.99.244-30618%26alias%3dccb-pod-7b69864649-c7mkl%26noUDP%26sock%3dcollector#39&PrivNet=wn-pod-55b4ff9b5c-tszk4&addrs=10.42.0.26-9618&alias=wn-pod-55b4ff9b5c-tszk4&noUDP&sock=startd_22_ab2c>
+...
+006 (348.000.000) 2026-04-22 15:11:02 Image size of job updated: 20
+	6  -  MemoryUsage of job (MB)
+	5888  -  ResidentSetSize of job (KB)
+...
+006 (348.000.000) 2026-04-22 15:16:02 Image size of job updated: 82288
+	16  -  MemoryUsage of job (MB)
+	15428  -  ResidentSetSize of job (KB)
+...
+040 (348.000.000) 2026-04-22 15:41:36 Started transferring output files
+...
+040 (348.000.000) 2026-04-22 15:41:36 Finished transferring output files
+...
+005 (348.000.000) 2026-04-22 15:41:36 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:14:13, Sys 0 00:01:11  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:14:13, Sys 0 00:01:11  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	10612  -  Run Bytes Sent By Job
+	18726  -  Run Bytes Received By Job
+	10612  -  Total Bytes Sent By Job
+	18726  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :     0.89        1         1 
+	   Disk (KB)            :    46          40     20359 
+	   Memory (MB)          :    16           1       128 
+
+	Job terminated of its own accord at 2026-04-22T15:41:36Z.
+...

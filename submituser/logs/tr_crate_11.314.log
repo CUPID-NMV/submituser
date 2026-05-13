@@ -1,0 +1,34 @@
+000 (314.000.000) 2026-04-22 14:51:01 Job submitted from host: <131.154.99.244:31618?addrs=131.154.99.244-31618&alias=131.154.99.244.myip.cloud.infn.it&noUDP&sock=schedd_31_d786>
+...
+040 (314.000.000) 2026-04-22 14:51:23 Started transferring input files
+	Transferring to host: <10.42.3.26:9618?CCBID=131.154.99.244:30618%3faddrs%3d131.154.99.244-30618%26alias%3dccb-pod-7b69864649-c7mkl%26noUDP%26sock%3dcollector#1&PrivNet=wn-pod-55b4ff9b5c-fs92z&addrs=10.42.3.26-9618&alias=wn-pod-55b4ff9b5c-fs92z&noUDP&sock=slot1_1_65_8c5c_7>
+...
+040 (314.000.000) 2026-04-22 14:51:23 Finished transferring input files
+...
+001 (314.000.000) 2026-04-22 14:51:24 Job executing on host: <10.42.3.26:9618?CCBID=131.154.99.244:30618%3faddrs%3d131.154.99.244-30618%26alias%3dccb-pod-7b69864649-c7mkl%26noUDP%26sock%3dcollector#1&PrivNet=wn-pod-55b4ff9b5c-fs92z&addrs=10.42.3.26-9618&alias=wn-pod-55b4ff9b5c-fs92z&noUDP&sock=startd_22_ab2c>
+...
+006 (314.000.000) 2026-04-22 14:51:34 Image size of job updated: 82288
+	16  -  MemoryUsage of job (MB)
+	15368  -  ResidentSetSize of job (KB)
+...
+040 (314.000.000) 2026-04-22 15:21:24 Started transferring output files
+...
+040 (314.000.000) 2026-04-22 15:21:24 Finished transferring output files
+...
+005 (314.000.000) 2026-04-22 15:21:25 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:13:05, Sys 0 00:01:07  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:13:05, Sys 0 00:01:07  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	10355  -  Run Bytes Sent By Job
+	18726  -  Run Bytes Received By Job
+	10355  -  Total Bytes Sent By Job
+	18726  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :     0.47        1         1 
+	   Disk (KB)            :    46          40     20106 
+	   Memory (MB)          :    16           1       128 
+
+	Job terminated of its own accord at 2026-04-22T15:21:24Z.
+...

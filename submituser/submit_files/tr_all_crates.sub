@@ -1,0 +1,14 @@
+universe   = vanilla
+executable = submit_files/run_all_crates.sh
+
+should_transfer_files   = YES
+when_to_transfer_output = ON_EXIT
+transfer_input_files    = tr2.py,submit_files/run_all_crates.sh
+
+output = logs/tr_all_crates.$(ClusterId).$(ProcId).out
+error  = logs/tr_all_crates.$(ClusterId).$(ProcId).err
+log    = logs/tr_all_crates.$(ClusterId).log
+
++OWNER = "condor"
+
+queue

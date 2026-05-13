@@ -1,0 +1,38 @@
+000 (319.000.000) 2026-04-22 14:53:35 Job submitted from host: <131.154.99.244:31618?addrs=131.154.99.244-31618&alias=131.154.99.244.myip.cloud.infn.it&noUDP&sock=schedd_31_d786>
+...
+040 (319.000.000) 2026-04-22 14:54:07 Started transferring input files
+	Transferring to host: <10.42.2.27:9618?CCBID=131.154.99.244:30618%3faddrs%3d131.154.99.244-30618%26alias%3dccb-pod-7b69864649-c7mkl%26noUDP%26sock%3dcollector#6&PrivNet=wn-pod-55b4ff9b5c-gcmct&addrs=10.42.2.27-9618&alias=wn-pod-55b4ff9b5c-gcmct&noUDP&sock=slot1_1_65_8c5c_7>
+...
+040 (319.000.000) 2026-04-22 14:54:07 Finished transferring input files
+...
+001 (319.000.000) 2026-04-22 14:54:08 Job executing on host: <10.42.2.27:9618?CCBID=131.154.99.244:30618%3faddrs%3d131.154.99.244-30618%26alias%3dccb-pod-7b69864649-c7mkl%26noUDP%26sock%3dcollector#6&PrivNet=wn-pod-55b4ff9b5c-gcmct&addrs=10.42.2.27-9618&alias=wn-pod-55b4ff9b5c-gcmct&noUDP&sock=startd_22_ab2c>
+...
+006 (319.000.000) 2026-04-22 14:54:17 Image size of job updated: 20
+	6  -  MemoryUsage of job (MB)
+	5852  -  ResidentSetSize of job (KB)
+...
+006 (319.000.000) 2026-04-22 14:59:17 Image size of job updated: 82288
+	16  -  MemoryUsage of job (MB)
+	15364  -  ResidentSetSize of job (KB)
+...
+040 (319.000.000) 2026-04-22 15:30:18 Started transferring output files
+...
+040 (319.000.000) 2026-04-22 15:30:18 Finished transferring output files
+...
+005 (319.000.000) 2026-04-22 15:30:18 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:13:09, Sys 0 00:01:06  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:13:09, Sys 0 00:01:06  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	12679  -  Run Bytes Sent By Job
+	18726  -  Run Bytes Received By Job
+	12679  -  Total Bytes Sent By Job
+	18726  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :     0.40        1         1 
+	   Disk (KB)            :    48          40     20127 
+	   Memory (MB)          :    16           1       128 
+
+	Job terminated of its own accord at 2026-04-22T15:30:18Z.
+...

@@ -1,0 +1,6 @@
+Sending RTP-like 24-bit offset-binary noise
+  dst=131.154.99.225:6666
+  channels=8  pps/ch=10.0  packets/ch=1000
+  payload=721 bytes (180 samples *4 + 1)
+  volts FS=+/-10.0V, noise=10.000 mV RMS (~8388.61 LSB RMS)
+  RTP: PT=23 CC=1 CSRC0=0x800005DC ts_inc=360

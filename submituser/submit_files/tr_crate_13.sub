@@ -1,0 +1,15 @@
+universe   = vanilla
+executable = tr2.py
+arguments  = 131.154.99.225 13 5000 6666 --packets-per-stream 30000
+
+should_transfer_files   = YES
+when_to_transfer_output = ON_EXIT
+transfer_input_files    = tr2.py
+
+output = logs/tr_crate_13.$(ClusterId).$(ProcId).out
+error  = logs/tr_crate_13.$(ClusterId).$(ProcId).err
+log    = logs/tr_crate_13.$(ClusterId).log
+
++OWNER = "condor"
+
+queue
